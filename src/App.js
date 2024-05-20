@@ -1,24 +1,18 @@
-import React, { useState } from 'react'
-// import Props from './Props';
-// import { Props2 } from './Props2';
-// import UseEffect from './UseEffect';
-import Fetch from './Fetch';
+import Footer from './Components/ReactRouter/Footer/Footer';
+import Header from './Components/ReactRouter/Header/Header';
+import Home from './Components/ReactRouter/Home/Home';
 
 function App() {
-    const [count, setCount]=useState(0)
-    // const[submit,setsubmit]=useState()
+
     
   return (
     <>
-    {/* <h1>{count}</h1>
-    <Props name="naman" btnText="click me "/>
-    <Props name="abcdef" btnText="visit me "/> */}
     
-    {/* <Props2/> */}
-    {/* <UseEffect/> */}
-    <Fetch/>
-    
+    <Header/>
+    <Home/>
+    <Footer/>
     </>
+    
   )
 }
 
